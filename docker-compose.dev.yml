@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  frontend-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:3000
+    volumes:
+      - .:/app
+      - /app/node_modules
+    networks:
+      - blog-network
+
+networks:
+  blog-network:
+    external: true 
