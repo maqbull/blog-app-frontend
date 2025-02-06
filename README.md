@@ -6,13 +6,11 @@ The Blog App Frontend is a web application designed to provide users with an int
 
 - **User Authentication**: Secure login and registration system to manage user accounts.
 - **Post Management**: Create, edit, and delete blog posts with rich text formatting.
-- **Commenting System**: Engage with posts through a robust commenting feature.
 - **Responsive Design**: Optimized for various devices, ensuring accessibility and usability.
 
 ## Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
-- **Redux**: A state management tool for JavaScript applications.
 - **CSS3**: For styling and layout.
 - **HTML5**: For structuring the web content.
 
